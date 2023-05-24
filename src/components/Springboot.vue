@@ -12,7 +12,7 @@ export default {
     Server
   },
   computed: {
-    endpoint: () => 'http://localhost:9013'
+    endpoint: () => 'https://cors.springboot.com'
   }
 }
 </script>

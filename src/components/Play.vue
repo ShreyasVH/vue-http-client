@@ -12,7 +12,7 @@ export default {
     Server
   },
   computed: {
-    endpoint: () => 'http://localhost:9012'
+    endpoint: () => 'https://cors.playframework.com'
   }
 }
 </script>

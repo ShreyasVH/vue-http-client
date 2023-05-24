@@ -70,7 +70,7 @@
         return this.endpoint + '/api';
       },
       deleteUrl () {
-        return this.endpoint + '/api';
+        return this.endpoint + '/api?input=abc';
       },
       payload: () => ({ a: 'A', b: 'B'})
     }
