@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div v-if="loaded">
-      <div v-for="part of parts">
+    <section class="server" v-if="loaded">
+      <section class="verb" v-for="part of parts">
         <p>
           <b>
             URL:
@@ -21,8 +21,8 @@
               {{this[part]}}
           </span>
         </p>
-      </div>
-    </div>
+      </section>
+    </section>
   </div>
 </template>
 

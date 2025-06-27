@@ -12,7 +12,7 @@ export default {
     Server
   },
   computed: {
-    endpoint: () => 'https://cors.dotnet.com'
+    endpoint: () => 'https://cors.dotnetcore.com'
   }
 }
 </script>
