@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section class="server" v-if="loaded">
-      <section class="verb" v-for="part of parts">
+    <section class="server" data-class="server" v-if="loaded">
+      <section class="verb" data-class="verb" v-for="part of parts">
         <p>
           <b>
             URL:
